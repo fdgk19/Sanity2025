@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "sanity-test-2a6f0",
+    "sanity": "sanity-ef53f",
+    "sanity-test": "sanity-test-2a6f0"
+  },
+  "targets": {},
+  "etags": {}
+}

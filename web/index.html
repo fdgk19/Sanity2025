@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="sanity_web">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <script src="scripts/get_consent.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>sanity_web</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <!-- Image-cropped -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.css" />
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    }); 
+  </script>
+  <!-- The standard consent popup (hidden by default) -->
+  <div id="consent-popup" class="hidden consent-div">
+    <h2>We use cookies and other technologies</h2>
+    <p>This website uses cookies and similar functions to process end device information and personal data. The processing serves the integration of content, external services and elements of third parties, statistical analysis/measurement, personalized advertising and the integration of social media. Depending on the function, data may be passed on to third parties within the EU in the process. Your consent is always voluntary, not required for the use of our website and can be rejected or revoked at any time via the icon at the bottom right.
+    </p>
+    <div>
+      <button id="accept-btn" class="btn inline">Accept</button>
+      <button id="reject-btn" class="btn inline">Reject</button>
+      <button id="info-btn" class="btn inline">More info</button>    
+    </div>
+  </div>
+  <!-- Detailed consent popup allows the user to control scripts by their category -->
+  <div id="consent-popup-details" class="hidden consent-div">
+    <h2>Choose what to accept</h2>
+    <div>
+      <div class="row-div">
+        <h3>Essential</h3>
+        <label class="switch">
+          <!-- Essentials must always be checked -->
+          <input id="essential-cb" type="checkbox" checked disabled=true>
+          <span class="slider round"></span>
+        </label>    
+      </div>
+      <p>
+      Here you can find all technically necessary scripts, cookies and other elements that are necessary for the operation of the website.
+      </p>
+      <div class="row-div">
+        <h3>Analytics</h3>
+        <label class="switch">
+          <input id ="analytics-cb" type="checkbox">
+          <span class="slider round"></span>
+        </label>    
+      </div>
+      <p>
+      For the site, visitors, web page views and diveerse other data are stored anonymously.
+      </p>
+    </div>
+    <div>
+      <button id="save-btn" class="btn inline">Save</button>
+      <button id="cancel-btn" class="btn inline">Cancel</button>   
+    </div>
+  </div>
+  <script src="scripts/set_consent.js"></script>
+</body>
+</html>

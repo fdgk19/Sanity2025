@@ -1,0 +1,109 @@
+{
+  "project_info": {
+    "project_number": "902628732577",
+    "firebase_url": "https://sanity-ef53f-default-rtdb.firebaseio.com",
+    "project_id": "sanity-ef53f",
+    "storage_bucket": "sanity-ef53f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902628732577:android:1b589af0b47665dd850ae0",
+        "android_client_info": {
+          "package_name": "com.example.sanity_web"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902628732577-ssv0in55h17gsitsksatn1ho1bd2qkaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Qx0IIFrkwscMTbsy5PV17rDb56nNW_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902628732577-ssv0in55h17gsitsksatn1ho1bd2qkaa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902628732577-eijvrnf2echscd1mhaku544phr7h3gpj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sanityempowering.app",
+                "app_store_id": "1566362540"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902628732577:android:53b7f879e795686e850ae0",
+        "android_client_info": {
+          "package_name": "com.sanityempowering.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902628732577-2dnr98mkuu5cm3s62ojq8e9sgbn9rcg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanityempowering.app",
+            "certificate_hash": "09a3444b531de188d2092b96e7ab90c821d8ae97"
+          }
+        },
+        {
+          "client_id": "902628732577-geja79b9dpnccn6co1lhaavkkjgsoihi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanityempowering.app",
+            "certificate_hash": "0d7096a9cf870323fcc11c8f19918b5eafa7c283"
+          }
+        },
+        {
+          "client_id": "902628732577-qn5itpu9ha26l8cbm0g394n1g3rhap1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanityempowering.app",
+            "certificate_hash": "3c4172fec42cf8b7936b3704de2b83121b82fe5b"
+          }
+        },
+        {
+          "client_id": "902628732577-ssv0in55h17gsitsksatn1ho1bd2qkaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Qx0IIFrkwscMTbsy5PV17rDb56nNW_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902628732577-ssv0in55h17gsitsksatn1ho1bd2qkaa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902628732577-eijvrnf2echscd1mhaku544phr7h3gpj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sanityempowering.app",
+                "app_store_id": "1566362540"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

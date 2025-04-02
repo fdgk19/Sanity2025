@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>902628732577-rmf3v0lfsheocgti656ps1cc60js760s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.902628732577-rmf3v0lfsheocgti656ps1cc60js760s</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>902628732577-2dnr98mkuu5cm3s62ojq8e9sgbn9rcg1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBc-bDMaCcSH_Tz1hljcC9RAgh71Z3wLHU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>902628732577</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.sanityWeb</string>
+	<key>PROJECT_ID</key>
+	<string>sanity-ef53f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sanity-ef53f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:902628732577:ios:028245cbdff0f0f7850ae0</string>
+	<key>DATABASE_URL</key>
+	<string>https://sanity-ef53f-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
